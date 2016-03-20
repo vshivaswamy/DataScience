@@ -99,3 +99,16 @@ Tidy Column  |	Original Column
  "Angle(X,GravityMean)"                             	 |"angle(X,gravityMean)"                
  "Angle(Y,GravityMean)"                              	 |"angle(Y,gravityMean)"                 
  "Angle(Z,GravityMean)" 	 							 |"angle(Z,gravityMean)"      
+ 
+ 
+ 
+ ## Activities
+ Labels |
+ -------|
+ WALKING
+ WALKING_UPSTAIRS
+ WALKING_DOWNSTAIRS
+ SITTING
+ STANDING
+ LAYING
+ 
