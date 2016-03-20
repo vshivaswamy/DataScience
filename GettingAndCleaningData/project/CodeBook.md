@@ -9,74 +9,93 @@ Execution of file run_analysis.R will result a tidy.txt
 
 A tidy is a data table with following columns. 
 
-Column	Original Name
-Activity	
-Subject	
-Time.BodyAcc.Mean.X	tBodyAcc-mean()-X
-Time.BodyAcc.Mean.Y	tBodyAcc-mean()-Y
-Time.BodyAcc.Mean.Z	tBodyAcc-mean()-Z
-Time.BodyAcc.Std.X	tBodyAcc-std()-X
-Time.BodyAcc.Std.Y	tBodyAcc-std()-Y
-Time.BodyAcc.Std.Z	tBodyAcc-std()-Z
-Time.GravityAcc.Mean.X	tGravityAcc-mean()-X
-Time.GravityAcc.Mean.Y	tGravityAcc-mean()-Y
-Time.GravityAcc.Mean.Z	tGravityAcc-mean()-Z
-Time.GravityAcc.Std.X	tGravityAcc-std()-X
-Time.GravityAcc.Std.Y	tGravityAcc-std()-Y
-Time.GravityAcc.Std.Z	tGravityAcc-std()-Z
-Time.BodyAccJerk.Mean.X	tBodyAccJerk-mean()-X
-Time.BodyAccJerk.Mean.Y	tBodyAccJerk-mean()-Y
-Time.BodyAccJerk.Mean.Z	tBodyAccJerk-mean()-Z
-Time.BodyAccJerk.Std.X	tBodyAccJerk-std()-X
-Time.BodyAccJerk.Std.Y	tBodyAccJerk-std()-Y
-Time.BodyAccJerk.Std.Z	tBodyAccJerk-std()-Z
-Time.BodyGyro.Mean.X	tBodyGyro-mean()-X
-Time.BodyGyro.Mean.Y	tBodyGyro-mean()-Y
-Time.BodyGyro.Mean.Z	tBodyGyro-mean()-Z
-Time.BodyGyro.Std.X	tBodyGyro-std()-X
-Time.BodyGyro.Std.Y	tBodyGyro-std()-Y
-Time.BodyGyro.Std.Z	tBodyGyro-std()-Z
-Time.BodyGyroJerk.Mean.X	tBodyGyroJerk-mean()-X
-Time.BodyGyroJerk.Mean.Y	tBodyGyroJerk-mean()-Y
-Time.BodyGyroJerk.Mean.Z	tBodyGyroJerk-mean()-Z
-Time.BodyGyroJerk.Std.X	tBodyGyroJerk-std()-X
-Time.BodyGyroJerk.Std.Y	tBodyGyroJerk-std()-Y
-Time.BodyGyroJerk.Std.Z	tBodyGyroJerk-std()-Z
-Time.BodyAccMag.Mean	tBodyAccMag-mean()
-Time.BodyAccMag.Std	tBodyAccMag-std()
-Time.GravityAccMag.Mean	tGravityAccMag-mean()
-Time.GravityAccMag.Std	tGravityAccMag-std()
-Time.BodyAccJerkMag.Mean	tBodyAccJerkMag-mean()
-Time.BodyAccJerkMag.Std	tBodyAccJerkMag-std()
-Time.BodyGyroMag.Mean	tBodyGyroMag-mean()
-Time.BodyGyroMag.Std	tBodyGyroMag-std()
-Time.BodyGyroJerkMag.Mean	tBodyGyroJerkMag-mean()
-Time.BodyGyroJerkMag.Std	tBodyGyroJerkMag-std()
-FFT.BodyAcc.Mean.X	fBodyAcc-mean()-X
-FFT.BodyAcc.Mean.Y	fBodyAcc-mean()-Y
-FFT.BodyAcc.Mean.Z	fBodyAcc-mean()-Z
-FFT.BodyAcc.Std.X	fBodyAcc-std()-X
-FFT.BodyAcc.Std.Y	fBodyAcc-std()-Y
-FFT.BodyAcc.Std.Z	fBodyAcc-std()-Z
-FFT.BodyAccJerk.Mean.X	fBodyAccJerk-mean()-X
-FFT.BodyAccJerk.Mean.Y	fBodyAccJerk-mean()-Y
-FFT.BodyAccJerk.Mean.Z	fBodyAccJerk-mean()-Z
-FFT.BodyAccJerk.Std.X	fBodyAccJerk-std()-X
-FFT.BodyAccJerk.Std.Y	fBodyAccJerk-std()-Y
-FFT.BodyAccJerk.Std.Z	fBodyAccJerk-std()-Z
-FFT.BodyGyro.Mean.X	fBodyGyro-mean()-X
-FFT.BodyGyro.Mean.Y	fBodyGyro-mean()-Y
-FFT.BodyGyro.Mean.Z	fBodyGyro-mean()-Z
-FFT.BodyGyro.Std.X	fBodyGyro-std()-X
-FFT.BodyGyro.Std.Y	fBodyGyro-std()-Y
-FFT.BodyGyro.Std.Z	fBodyGyro-std()-Z
-FFT.BodyAccMag.Mean	fBodyAccMag-mean()
-FFT.BodyAccMag.Std	fBodyAccMag-std()
-FFT.BodyBodyAccJerkMag.Mean	fBodyBodyAccJerkMag-mean()
-FFT.BodyBodyAccJerkMag.Std	fBodyBodyAccJerkMag-std()
-FFT.BodyBodyGyroMag.Mean	fBodyBodyGyroMag-mean()
-FFT.BodyBodyGyroMag.Std	fBodyBodyGyroMag-std()
-FFT.BodyBodyGyroJerkMag.Mean	fBodyBodyGyroJerkMag-mean()
-FFT.BodyBodyGyroJerkMag.Std	fBodyBodyGyroJerkMag-std()
-
-
+Column |	Original Name
+-------------------------------------------------------------
+"Activity"                                         	 |"Activity"                            
+ "Subject"                                           	 |"Subject"
+ "TimeBodyAccelerometerMean()-X"                     	 |"tBodyAcc-mean()-X"                   
+ "TimeBodyAccelerometerMean()-Y"                    	 |"tBodyAcc-mean()-Y"                    
+ "TimeBodyAccelerometerMean()-Z"                     	 |"tBodyAcc-mean()-Z"                   
+ "TimeBodyAccelerometerSTD()-X"                     	 |"tBodyAcc-std()-X"                     
+ "TimeBodyAccelerometerSTD()-Y"                      	 |"tBodyAcc-std()-Y"                     
+ "TimeBodyAccelerometerSTD()-Z"                     	 |"tBodyAcc-std()-Z"                    
+ "TimeGravityAccelerometerMean()-X"                  	 |"tGravityAcc-mean()-X"                 
+ "TimeGravityAccelerometerMean()-Y"                 	 |"tGravityAcc-mean()-Y"                 
+ "TimeGravityAccelerometerMean()-Z"                  	 |"tGravityAcc-mean()-Z"                
+ "TimeGravityAccelerometerSTD()-X"                  	 |"tGravityAcc-std()-X"                 
+ "TimeGravityAccelerometerSTD()-Y"                   	 |"tGravityAcc-std()-Y"                
+ "TimeGravityAccelerometerSTD()-Z"                  	 |"tGravityAcc-std()-Z"                 
+ "TimeBodyAccelerometerJerkMean()-X"                 	 |"tBodyAccJerk-mean()-X"                
+ "TimeBodyAccelerometerJerkMean()-Y"                	 |"tBodyAccJerk-mean()-Y"               
+ "TimeBodyAccelerometerJerkMean()-Z"                 	 |"tBodyAccJerk-mean()-Z"               
+ "TimeBodyAccelerometerJerkSTD()-X"                 	 |"tBodyAccJerk-std()-X"                
+ "TimeBodyAccelerometerJerkSTD()-Y"                  	 |"tBodyAccJerk-std()-Y"                 
+ "TimeBodyAccelerometerJerkSTD()-Z"                 	 |"tBodyAccJerk-std()-Z"                
+ "TimeBodyGyroscopeMean()-X"                         	 |"tBodyGyro-mean()-X"                   
+ "TimeBodyGyroscopeMean()-Y"                        	 |"tBodyGyro-mean()-Y"                   
+ "TimeBodyGyroscopeMean()-Z"                         	 |"tBodyGyro-mean()-Z"                  
+ "TimeBodyGyroscopeSTD()-X"                         	 |"tBodyGyro-std()-X"                   
+ "TimeBodyGyroscopeSTD()-Y"                          	 |"tBodyGyro-std()-Y"                   
+ "TimeBodyGyroscopeSTD()-Z"                         	 |"tBodyGyro-std()-Z"                   
+ "TimeBodyGyroscopeJerkMean()-X"                     	 |"tBodyGyroJerk-mean()-X"              
+ "TimeBodyGyroscopeJerkMean()-Y"                    	 |"tBodyGyroJerk-mean()-Y"               
+ "TimeBodyGyroscopeJerkMean()-Z"                     	 |"tBodyGyroJerk-mean()-Z"              
+ "TimeBodyGyroscopeJerkSTD()-X"                     	 |"tBodyGyroJerk-std()-X"                
+ "TimeBodyGyroscopeJerkSTD()-Y"                      	 |"tBodyGyroJerk-std()-Y"                
+ "TimeBodyGyroscopeJerkSTD()-Z"                     	 |"tBodyGyroJerk-std()-Z"               
+ "TimeBodyAccelerometerMagnitudeMean()"              	 |"tBodyAccMag-mean()"                   
+ "TimeBodyAccelerometerMagnitudeSTD()"              	 |"tBodyAccMag-std()"                   
+ "TimeGravityAccelerometerMagnitudeMean()"           	 |"tGravityAccMag-mean()"               
+ "TimeGravityAccelerometerMagnitudeSTD()"           	 |"tGravityAccMag-std()"                 
+ "TimeBodyAccelerometerJerkMagnitudeMean()"          	 |"tBodyAccJerkMag-mean()"               
+ "TimeBodyAccelerometerJerkMagnitudeSTD()"          	 |"tBodyAccJerkMag-std()"               
+ "TimeBodyGyroscopeMagnitudeMean()"                  	 |"tBodyGyroMag-mean()"                 
+ "TimeBodyGyroscopeMagnitudeSTD()"                  	 |"tBodyGyroMag-std()"                   
+ "TimeBodyGyroscopeJerkMagnitudeMean()"              	 |"tBodyGyroJerkMag-mean()"             
+ "TimeBodyGyroscopeJerkMagnitudeSTD()"              	 |"tBodyGyroJerkMag-std()"              
+ "FrequencyBodyAccelerometerMean()-X"                	 |"fBodyAcc-mean()-X"                    
+ "FrequencyBodyAccelerometerMean()-Y"               	 |"fBodyAcc-mean()-Y"                   
+ "FrequencyBodyAccelerometerMean()-Z"                	 |"fBodyAcc-mean()-Z"                    
+ "FrequencyBodyAccelerometerSTD()-X"                	 |"fBodyAcc-std()-X"                     
+ "FrequencyBodyAccelerometerSTD()-Y"                 	 |"fBodyAcc-std()-Y"                    
+ "FrequencyBodyAccelerometerSTD()-Z"                	 |"fBodyAcc-std()-Z"                     
+ "FrequencyBodyAccelerometerMeanFreq()-X"            	 |"fBodyAcc-meanFreq()-X"                
+ "FrequencyBodyAccelerometerMeanFreq()-Y"           	 |"fBodyAcc-meanFreq()-Y"               
+ "FrequencyBodyAccelerometerMeanFreq()-Z"            	 |"fBodyAcc-meanFreq()-Z"                
+ "FrequencyBodyAccelerometerJerkMean()-X"           	 |"fBodyAccJerk-mean()-X"               
+ "FrequencyBodyAccelerometerJerkMean()-Y"            	 |"fBodyAccJerk-mean()-Y"               
+ "FrequencyBodyAccelerometerJerkMean()-Z"           	 |"fBodyAccJerk-mean()-Z"               
+ "FrequencyBodyAccelerometerJerkSTD()-X"             	 |"fBodyAccJerk-std()-X"                 
+ "FrequencyBodyAccelerometerJerkSTD()-Y"            	 |"fBodyAccJerk-std()-Y"                
+ "FrequencyBodyAccelerometerJerkSTD()-Z"             	 |"fBodyAccJerk-std()-Z"                 
+ "FrequencyBodyAccelerometerJerkMeanFreq()-X"       	 |"fBodyAccJerk-meanFreq()-X"            
+ "FrequencyBodyAccelerometerJerkMeanFreq()-Y"        	 |"fBodyAccJerk-meanFreq()-Y"           
+ "FrequencyBodyAccelerometerJerkMeanFreq()-Z"       	 |"fBodyAccJerk-meanFreq()-Z"            
+ "FrequencyBodyGyroscopeMean()-X"                    	 |"fBodyGyro-mean()-X"                   
+ "FrequencyBodyGyroscopeMean()-Y"                   	 |"fBodyGyro-mean()-Y"                  
+ "FrequencyBodyGyroscopeMean()-Z"                    	 |"fBodyGyro-mean()-Z"                  
+ "FrequencyBodyGyroscopeSTD()-X"                    	 |"fBodyGyro-std()-X"                    
+ "FrequencyBodyGyroscopeSTD()-Y"                     	 |"fBodyGyro-std()-Y"                   
+ "FrequencyBodyGyroscopeSTD()-Z"                    	 |"fBodyGyro-std()-Z"                    
+ "FrequencyBodyGyroscopeMeanFreq()-X"                	 |"fBodyGyro-meanFreq()-X"              
+ "FrequencyBodyGyroscopeMeanFreq()-Y"               	 |"fBodyGyro-meanFreq()-Y"              
+ "FrequencyBodyGyroscopeMeanFreq()-Z"                	 |"fBodyGyro-meanFreq()-Z"              
+ "FrequencyBodyAccelerometerMagnitudeMean()"        	 |"fBodyAccMag-mean()"                   
+ "FrequencyBodyAccelerometerMagnitudeSTD()"          	 |"fBodyAccMag-std()"                   
+ "FrequencyBodyAccelerometerMagnitudeMeanFreq()"    	 |"fBodyAccMag-meanFreq()"               
+ "FrequencyBodyAccelerometerJerkMagnitudeMean()"     	 |"fBodyBodyAccJerkMag-mean()"           
+ "FrequencyBodyAccelerometerJerkMagnitudeSTD()"     	 |"fBodyBodyAccJerkMag-std()"           
+ "FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()" 	 |"fBodyBodyAccJerkMag-meanFreq()"      
+ "FrequencyBodyGyroscopeMagnitudeMean()"            	 |"fBodyBodyGyroMag-mean()"              
+ "FrequencyBodyGyroscopeMagnitudeSTD()"              	 |"fBodyBodyGyroMag-std()"              
+ "FrequencyBodyGyroscopeMagnitudeMeanFreq()"        	 |"fBodyBodyGyroMag-meanFreq()"          
+ "FrequencyBodyGyroscopeJerkMagnitudeMean()"         	 |"fBodyBodyGyroJerkMag-mean()"          
+ "FrequencyBodyGyroscopeJerkMagnitudeSTD()"         	 |"fBodyBodyGyroJerkMag-std()"          
+ "FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()"     	 |"fBodyBodyGyroJerkMag-meanFreq()"      
+ "Angle(TimeBodyAccelerometerMean,Gravity)"         	 |"angle(tBodyAccMean,gravity)"          
+ "Angle(TimeBodyAccelerometerJerkMean),GravityMean)" 	 |"angle(tBodyAccJerkMean),gravityMean)"
+ "Angle(TimeBodyGyroscopeMean,GravityMean)"         	 |"angle(tBodyGyroMean,gravityMean)"    
+ "Angle(TimeBodyGyroscopeJerkMean,GravityMean)"      	 |"angle(tBodyGyroJerkMean,gravityMean)" 
+ "Angle(X,GravityMean)"                             	 |"angle(X,gravityMean)"                
+ "Angle(Y,GravityMean)"                              	 |"angle(Y,gravityMean)"                 
+ "Angle(Z,GravityMean)" 	 							 |"angle(Z,gravityMean)"      
