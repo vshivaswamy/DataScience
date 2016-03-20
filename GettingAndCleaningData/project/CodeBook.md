@@ -1,10 +1,13 @@
-Code Book
+## Code Book
 
-For the provided UCI HAR Dataset the following vars are set from run_analysis.R. See the README for additional details.
+Source data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The data set is in UCI HAR Dataset directory.
+The R script for data analysis is run_analysis.R
+Execution of file run_analysis.R will result a tidy.txt
 
-Tidy
+## Tidy Data
 
-A data.table named tidy is set with the following columns. All units are maintained from the original data set. A file named tidy.txt is written from run_analysis.R.
+A tidy is a data table with following columns. 
 
 Column	Original Name
 Activity	
@@ -75,6 +78,5 @@ FFT.BodyBodyGyroMag.Mean	fBodyBodyGyroMag-mean()
 FFT.BodyBodyGyroMag.Std	fBodyBodyGyroMag-std()
 FFT.BodyBodyGyroJerkMag.Mean	fBodyBodyGyroJerkMag-mean()
 FFT.BodyBodyGyroJerkMag.Std	fBodyBodyGyroJerkMag-std()
-Notes
 
-Source data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
