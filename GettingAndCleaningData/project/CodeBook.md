@@ -101,14 +101,14 @@ Tidy Column  |	Original Column
  "Angle(Z,GravityMean)" 	 							 |"angle(Z,gravityMean)"      
  
  
+## Activities
  
- ## Activities
- Labels |
- -------|
- WALKING
- WALKING_UPSTAIRS
- WALKING_DOWNSTAIRS
- SITTING
- STANDING
- LAYING
+Labels |
+-------|---- 
+WALKING | 
+WALKING_UPSTAIRS | 
+WALKING_DOWNSTAIRS | 
+SITTING | 
+STANDING | 
+LAYING | 
  
