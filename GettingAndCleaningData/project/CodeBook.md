@@ -1,9 +1,9 @@
 ## Code Book
 
-Source data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-The data set is in UCI HAR Dataset directory.
-The R script for data analysis is run_analysis.R
-Execution of file run_analysis.R will result a tidy.txt
+* Source data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+* The data set is in UCI HAR Dataset directory.
+* The R script for data analysis is run_analysis.R
+* Execution of file run_analysis.R will result a tidy.txt
 
 ## Tidy Data
 
