@@ -54,6 +54,7 @@ for (i in 1:6){
 }
 extracted_data$Activity <- as.factor(extracted_data$Activity)
 extracted_data_orig <-extracted_data
+
 # Appropriately labels the data set with descriptive variable names
 names(extracted_data)<-gsub("Acc", "Accelerometer", names(extracted_data))
 names(extracted_data)<-gsub("Gyro", "Gyroscope", names(extracted_data))

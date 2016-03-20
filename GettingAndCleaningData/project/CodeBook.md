@@ -9,8 +9,8 @@ Execution of file run_analysis.R will result a tidy.txt
 
 A tidy is a data table with following columns. 
 
-Column |	Original Name
--------------------------------------------------------------
+Tidy Column  |	Original Column
+------------ | -----------------
 "Activity"                                         	 |"Activity"                            
  "Subject"                                           	 |"Subject"
  "TimeBodyAccelerometerMean()-X"                     	 |"tBodyAcc-mean()-X"                   
